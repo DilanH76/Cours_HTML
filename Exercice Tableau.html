@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Démonstration</title>
+</head>
+<body>
+
+    <table border="1">
+
+        <caption>
+
+             <b>Titre du tableau :</b><br>Largeur d’écran selon les points de rupture (breakpoints)
+             
+        </caption>
+
+        <!--
+            tr*5>td*5
+        -->
+
+        <tr>
+            <td>Beakpoint</td>
+            <td>Content Space Width</td>
+            <td>Screen width<br>(minimum)</td>
+            <td>Screen width<br>(maximum)</td>
+            <td>% of desktop/tablet traffic</td>
+        </tr>
+
+        <tr>
+            <td>Tablet Portrait</td>
+            <td colspan="2">768</td>
+            <td>1023</td>
+            <td>16%</td>
+        </tr>
+
+        <tr>
+            <td>Tablet Landscape</td>
+            <td colspan="2">1024px</td>
+            <td>1084</td>
+            <td rowspan="2">50%</td>
+        </tr>
+
+        <tr>
+            <td>Desktop</td>
+            <td colspan="2">1084</td>
+            <td>1594</td>
+        </tr>
+
+        <tr>
+            <td>Destkop XL</td>
+            <td>1238px</td>
+            <td>1595</td>
+            <td >&#x221E;</td>
+            <td>34%</td>
+        </tr>
+
+    </table>
+
+</body>
+
+</html>
